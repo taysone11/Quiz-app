@@ -20,12 +20,12 @@
         "correct":0
     },
     {
-        "question":"СКОЛЬКО ТЫ ЗАРАБАТЫВАЕШЬ?",
+        "question":"1012 + 523?",
         "answersOptions": [
-            {"answer":"Амогус", "isCorrect":true},
-            {"answer":"Амогус", "isCorrect":false},
-            {"answer":"Амогус", "isCorrect":false},
-            {"answer":"Амогус", "isCorrect":false}
+            {"answer":"1535", "isCorrect":true},
+            {"answer":"1234", "isCorrect":false},
+            {"answer":"1542", "isCorrect":false},
+            {"answer":"1525", "isCorrect":false}
         ],
         "correct":0
     },

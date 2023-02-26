@@ -1,0 +1,69 @@
+
+$quiz-background-color-dark:#1a1a1a;
+$quiz-background-color-light: #25294b;
+
+$menu-button-color-light:rgb(196, 193, 191);
+$menu-button-color-dark: rgb(43, 41, 41);
+
+$menu-board-color-light: whitesmoke;
+$menu-board-color-dark: rgb(2, 2, 2);
+
+
+$background-img-light: url("../data/images/back-light.png");
+$background-img-dark: url("../data/images/back-dark.png");
+
+$text-color-dark: rgb(26, 25, 25);
+$text-color-light: rgb(224, 222, 222);
+
+$board-text-color-dark: rgb(235, 225, 225);
+$board-text-color-light:  rgb(26, 25, 25);
+
+            
+$board-score-text-color-light:rgb(116, 9, 116);
+$board-score-text-color-dark:rgb(199, 3, 199);
+
+
+$gradient: linear-gradient(90deg, rgba(107,6,221,1) 0%, rgba(204,25,238,1) 57%);
+$card-background-color:#8435de;
+$progress-bar: 100%;
+$container-radious: 30px;
+
+
+
+:root {
+    --quiz-background-color-dark:#{$quiz-background-color-dark};
+    --quiz-background-color-light:#{$quiz-background-color-light};
+    --quiz-background-color-default:var(#{quiz-background-color-light});
+
+
+
+    --menu-button-color-light: #{$menu-button-color-light};
+    --menu-button-color-dark: #{$menu-button-color-dark};
+    --menu-button-color-default: var(#{--menu-button-color-light});
+
+
+    --menu-board-color-light: #{$menu-board-color-light};
+    --menu-board-color-dark: #{$menu-board-color-dark};
+    --menu-board-color-default: var(#{--menu-board-color-light});
+
+    --board-text-color-light: #{$board-text-color-light};
+    --board-text-color-dark:  #{$board-text-color-dark};
+    --board-text-color-default:var(#{--board-text-color-light});
+
+    --board-score-text-color-dark: #{$board-score-text-color-dark};
+    --board-score-text-color-light: #{$board-score-text-color-light};
+    --board-score-text-color-default: var(#{--board-score-text-color-light});
+
+    --text-color-light: #{$text-color-light};
+    --text-color-dark:  #{$text-color-dark};
+    --text-color-default:var(#{--text-color-light});
+
+    --background-img-light: #{$background-img-dark};
+    --background-img-dark: #{$background-img-light};
+
+    --background-img-default: var(#{--background-img-dark});
+
+    --gradient: #{gradient};
+    --card-background-color: #{card-background-color};
+    --progress-bar: #{progress-bar};
+}

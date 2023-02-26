@@ -1,0 +1,29 @@
+@import "/src/styles/vars";
+.container {
+    margin-top: 26px;
+    border-radius: 50px;
+    height: 28px;
+    border: 2px solid grey;
+    position: relative;
+    overflow: hidden;
+    width:80%;
+    
+    .bar {
+        height: 24.2px;
+        border-radius:inherit ;
+        background: $gradient; 
+        width: 100%;
+        transition: all 400ms ease;
+        
+        .icon {
+            color: gray;
+            position: absolute;
+            right: 5px;
+            top:1px;
+            font-size: 22px;
+        }
+        
+        
+    }
+     
+}

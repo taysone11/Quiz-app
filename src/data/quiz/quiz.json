@@ -1,0 +1,42 @@
+[
+    {
+        "question":"2+2?",
+        "answersOptions": [
+            {"answer":2, "isCorrect":false},
+            {"answer":4, "isCorrect":true},
+            {"answer":3, "isCorrect":false},
+            {"answer":6, "isCorrect":false}
+        ],
+        "correct":1
+    },
+    {
+        "question":"543-32?",
+        "answersOptions": [
+            {"answer":511, "isCorrect":true},
+            {"answer":509, "isCorrect":false},
+            {"answer":512, "isCorrect":false},
+            {"answer":521, "isCorrect":false}
+        ],
+        "correct":0
+    },
+    {
+        "question":"СКОЛЬКО ТЫ ЗАРАБАТЫВАЕШЬ?",
+        "answersOptions": [
+            {"answer":"Амогус", "isCorrect":true},
+            {"answer":"Амогус", "isCorrect":false},
+            {"answer":"Амогус", "isCorrect":false},
+            {"answer":"Амогус", "isCorrect":false}
+        ],
+        "correct":0
+    },
+    {
+        "question":"543-32?",
+        "answersOptions": [
+            {"answer":511, "isCorrect":true},
+            {"answer":509, "isCorrect":false},
+            {"answer":512, "isCorrect":false},
+            {"answer":521, "isCorrect":false}
+        ],
+        "correct":0
+    }
+]

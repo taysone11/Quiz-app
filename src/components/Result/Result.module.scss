@@ -1,0 +1,50 @@
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.result_container{
+    height: 220px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4px;
+    background-color: rgba(255, 255, 255, 0.959) ;
+    border-radius: 14px;
+    gap:6px;
+    margin: 80px auto;
+
+    
+    
+    .text {
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .img_container {
+        height: 130px;
+        width: 130px;
+        
+        
+        img {
+            object-fit:cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    
+    .button {
+        font-family: 'Roboto Slab', serif;
+        height: 30px;
+        width: 130px;
+        border-radius: 20px;
+        border-color: purple;
+        background:linear-gradient(to right, rgba(231, 10, 183, 0.856),rgba(167, 13, 228, 0.829)76%) ;
+        cursor: pointer;
+        color: rgb(211, 209, 209);
+
+        &:hover {
+        background:linear-gradient(to right, rgb(231, 10, 183),rgb(167, 13, 228)76%) ;
+        color: white;
+        }
+        
+    }
+
+}

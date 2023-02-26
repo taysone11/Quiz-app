@@ -1,0 +1,33 @@
+@import "/src/styles/vars";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid saddlebrown;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+.border-container {
+  padding: 15px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+
+.container {
+  height: 650px;
+  width: 320px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  // background-color: $quiz-background-color-dark;
+  background-image: var(#{--background-img-default});
+  background-position: 0 25px;
+
+    
+  //var(--background-img-default)
+}
+

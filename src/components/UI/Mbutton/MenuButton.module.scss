@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import "/src/styles/vars";
+.button {
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background:$gradient;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, rgba(106, 6, 221, 0.733) 0%, rgba(202, 25, 238, 0.781) 57%);
+    color: rgb(228, 226, 226);
+}
